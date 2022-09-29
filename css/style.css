@@ -425,7 +425,7 @@ body{
 }
 
 .Stats_top{
-   dispaly:flex;
+   display:flex;
 }
 
 .top{
@@ -440,7 +440,7 @@ body{
 
 .topLeft{
     float: right;
-    margin: -24px 15px 0px 0px;
+    margin-left: 66px;
     color: rgb(158, 155, 155);
 }
 
@@ -545,11 +545,13 @@ body{
 
 .head{
     font-size: 24px;
+    margin-bottom:8px;
 }
 
 .points{
     font-size: 16px;
     color:rgb(100, 100, 100);
+    margin-bottom:15px;
 }
 
 .points p{
@@ -575,7 +577,7 @@ body{
 }
 
 .sites div{
-    padding: 26px 0px 4px 0px;
+    margin-bottom:16px;
 }
 
 .sites_li{

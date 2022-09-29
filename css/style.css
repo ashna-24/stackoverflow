@@ -245,7 +245,7 @@ body{
 }
 
 .content{
-    margin-right: 160px;
+    width: 1040px;
 }
 
 .content_top{
@@ -396,7 +396,6 @@ body{
     border-radius: 20px;
     background-color:rgb(255, 108, 23);
     color: white;
-    padding: 7px;
     padding: 6px 15px;
 }
 
@@ -406,7 +405,7 @@ body{
 }
 
 .content_middleLeft{
-    width: 280px;
+    width: 237px;
     padding: 30px 0px 0px 15px;
 }
 
@@ -426,22 +425,22 @@ body{
 }
 
 .Stats_top{
-    width: 245px;
+   dispaly:flex;
 }
 
 .top{
-    width: 100px;
     color: rgb(158, 155, 155);
 }
 
 .top span{
+    display:flex;
     font-size: 18px;
     color: black;
 }
 
 .topLeft{
     float: right;
-    margin: -42px 36px 0px 0px;
+    margin: -24px 15px 0px 0px;
     color: rgb(158, 155, 155);
 }
 
@@ -452,22 +451,21 @@ body{
 }
 
 .Stats_mid{
-    width: 240px;
     padding-top: 18px;
 }
 
 .middle{
-    width: 97px;
     color: rgb(158, 155, 155);
 }
 
 .middle span{
+    display: flex;
     font-size: 18px;
     color: black;
 }
 
 .midLeft{
-    margin: -45px 37px 0px 100px;
+    margin: -40px 21px 0px 100px;
     float: right;
     color: rgb(158, 155, 155);
 }
@@ -516,7 +514,7 @@ body{
 
 .emp{
     float: right;
-    margin: -47px 72px 0px 0px;
+    margin: 6px 55px 0px 0px;
 }
 
 .Goo_Clo{
@@ -530,7 +528,7 @@ body{
 
 .employee img{
     width:5px;
-    margin-right: 3px;
+    margin-right: 5px;
     padding-bottom:2px;
     color: rgb(122, 118, 118);
 }
@@ -546,15 +544,12 @@ body{
 }
 
 .head{
-    padding-bottom: 4px;
     font-size: 24px;
 }
 
 .points{
     font-size: 16px;
     color:rgb(100, 100, 100);
-    padding: 2px 0px 8px 0px;
-    margin-bottom: 5px;
 }
 
 .points p{
@@ -574,23 +569,17 @@ body{
     padding-top: 8px ;
 }
 
-.site_bottom{
-    padding-top: 8px;
-}
-
 .site_bottom a{
     color: rgb(53, 125, 233);
     font-weight: 340;
 }
 
 .sites div{
-    padding: 14px 0px 4px 0px;
-    margin-bottom: 1px;
+    padding: 26px 0px 4px 0px;
 }
 
 .sites_li{
     margin-left: 15px;
-    padding: 3px 0px 6px 0px;
     font-weight: 340;
 }
 
@@ -725,8 +714,8 @@ body{
 }
 
 .center{
-    width:873px;
-    margin: -260px 0px 0px 280px;
+    width:746px;
+    margin: -252px 0px 0px 280px;
     padding: 5px;
     align-items: flex-start;
 }
@@ -839,7 +828,7 @@ body{
     width: 200px;
     padding: 12px;
     float: right;
-    margin: -197px 383px 0px 0px;
+    margin: -195px 260px 0px 0px;
 }
 
 .Silver_top img{
@@ -906,7 +895,7 @@ body{
     width: 200px;
     padding: 12px;
     float: right;
-    margin: -197px 123px 0px 100px;
+    margin: -196px 0px 0px 100px;
 }
 
 .Bronze_top img{
@@ -970,11 +959,11 @@ body{
 }
 
 .content_lower{
-    margin: 0px 0px 0px 290px;
+    margin-left: 290px;
 }
 
 .top_tag{
-    width: 873px;
+    width: 747px;
 }
 
 .tags{
@@ -998,7 +987,7 @@ body{
     border-bottom:2px solid rgb(235, 235, 235);
     border-right: 2px solid rgb(235, 235,235);
     border-radius: 5px;
-    width: 744px;
+    width: 747px;
     padding: 0px;
 }
 
@@ -1249,7 +1238,7 @@ body{
 
 .top_posts{
     margin-top: 10px;
-    width: 744px;
+    width: 747px;
 }
 
 .post{
@@ -1336,7 +1325,7 @@ body{
     border-bottom:2px solid rgb(235, 235, 235);
     border-right: 2px solid rgb(235, 235,235);
     border-radius: 5px;
-    width: 744px;
+    width: 747px;
 }
 
 .ans-one{
@@ -1872,7 +1861,7 @@ body{
 
 .tag_NetWork{
     margin-top: 20px;
-    width: 744px;
+    width: 747px;
     margin-bottom: 15px;
 }
 
@@ -1897,7 +1886,7 @@ body{
     border-bottom:2px solid rgb(235, 235, 235);
     border-right: 2px solid rgb(235, 235,235);
     border-radius: 5px;
-    width: 744px;
+    width: 747px;
 }
 
 .voters{

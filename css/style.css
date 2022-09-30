@@ -426,6 +426,7 @@ body{
 
 .Stats_top{
    display:flex;
+   padding-bottom:25px;
 }
 
 .top{
@@ -474,10 +475,6 @@ body{
     display: flex;
     font-size: 18px;
     color: black;
-}
-
-.bottom_grade{
-    padding-top: 18px;
 }
 
 .bottom_grade span{

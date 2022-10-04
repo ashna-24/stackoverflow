@@ -2,9 +2,10 @@
     margin: 0px;
     padding: 0px;
 }
-
-.header{
+.display_flex{
     display: flex;
+}
+.header{
     position:fixed;
     width: 1350px;
     height: 40px;

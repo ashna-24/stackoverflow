@@ -6,7 +6,7 @@
 .header{
     display: flex;
     position:fixed;
-    width: 1355px;
+    width: 1350px;
     height: 40px;
     z-index:10;
     align-items: center;
@@ -209,9 +209,9 @@
 }
 
 .footer{
-    border-top: 2px solid rgb(235, 235, 235);
-    border-left: 2px solid rgb(235, 235,235);
-    border-bottom:2px solid rgb(235, 235, 235);
+    border-width:2px; 
+    border-style: solid none solid solid;
+    border-color: rgb(235, 235, 235); 
     width:142px;
     padding: 8px;
 }
@@ -355,10 +355,7 @@
     width: 87px;
     padding: 5px;
     border-radius: 4px;
-    border-top: 1px solid rgb(199, 197, 197);
-    border-bottom: 1px solid rgb(199, 197, 197);
-    border-left: 1px solid rgb(199, 197, 197);
-    border-right: 1px solid rgb(199, 197,197);
+    border: 1px solid rgb(199, 197, 197);
     background-color: white;
     cursor: pointer;
 }
@@ -389,10 +386,7 @@
 }
 
 .file{
-    border-top: 1px;
-    border-bottom: 1px;
-    border-left: 1px;
-    border-right: 1px;
+    border: 1px;
     border-radius: 20px;
     background-color:rgb(255, 108, 23);
     color: white;
@@ -400,7 +394,7 @@
 }
 
 .content_middle{
-    width: 1204px;
+    width: 1032px;
     height: 380px;
     display:flex;
 }
@@ -416,10 +410,7 @@
 }
 
 .Stats{
-    border-top: 2px solid rgb(235, 235, 235);
-    border-left: 2px solid rgb(235, 235,235);
-    border-bottom:2px solid rgb(235, 235, 235);
-    border-right: 2px solid rgb(235, 235,235);
+    border: 2px solid rgb(235, 235, 235);
     border-radius: 5px;
     width: 214px;
     padding: 10px;
@@ -452,23 +443,9 @@
     color: black;
 }
 
-.Stats_mid{
-    padding-top: 18px;
-}
-
-.middle{
-    color: rgb(158, 155, 155);
-}
-
-.middle span{
-    display: flex;
-    font-size: 18px;
-    color: black;
-}
-
 .midLeft{
-    margin: -40px 21px 0px 100px;
     float: right;
+    margin-left:90px;
     color: rgb(158, 155, 155);
 }
 
@@ -497,10 +474,7 @@
 }
 
 .inside_google{
-    border-top: 2px solid rgb(235, 235, 235);
-    border-left: 2px solid rgb(235, 235,235);
-    border-bottom:2px solid rgb(235, 235, 235);
-    border-right: 2px solid rgb(235, 235,235);
+    border: 2px solid rgb(235, 235, 235);
     border-radius: 5px;
     width: 220px;
     padding: 8px;
@@ -629,10 +603,7 @@
 }
 
 .elements{
-    border-top: 2px solid rgb(235, 235, 235);
-    border-left: 2px solid rgb(235, 235,235);
-    border-bottom:2px solid rgb(235, 235, 235);
-    border-right: 2px solid rgb(235, 235,235);
+    border: 2px solid rgb(235, 235, 235);
     border-radius: 5px;
     width: 220px;
     padding: 10px;
@@ -748,10 +719,7 @@
 }
 
 .Gold{
-    border-top: 2px solid rgb(235, 235, 235);
-    border-left: 2px solid rgb(235, 235,235);
-    border-bottom:2px solid rgb(235, 235, 235);
-    border-right: 2px solid rgb(235, 235,235);
+    border: 2px solid rgb(235, 235, 235);
     border-radius: 5px;
     width: 200px;
     padding: 12px;
@@ -792,10 +760,7 @@
 }
 
 .delegates{
-    border-top: 2px solid rgb(235, 235, 235);
-    border-left: 2px solid rgb(235, 235,235);
-    border-bottom:2px solid rgb(235, 235, 235);
-    border-right: 2px solid rgb(235, 235,235);
+    border: 2px solid rgb(235, 235, 235);
     border-radius: 5px;
     width:83px;
     padding: 4px;
@@ -803,10 +768,7 @@
 }
 
 .inherit{
-    border-top: 2px solid rgb(235, 235, 235);
-    border-left: 2px solid rgb(235, 235,235);
-    border-bottom:2px solid rgb(235, 235, 235);
-    border-right: 2px solid rgb(235, 235,235);
+    border: 2px solid rgb(235, 235, 235);
     border-radius: 5px;
     width:89px;
     padding: 4px;
@@ -815,10 +777,7 @@
 }
 
 .casting{
-    border-top: 2px solid rgb(235, 235, 235);
-    border-left: 2px solid rgb(235, 235,235);
-    border-bottom:2px solid rgb(235, 235, 235);
-    border-right: 2px solid rgb(235, 235,235);
+    border: 2px solid rgb(235, 235, 235);
     border-radius: 5px;
     width: 66px;
     padding: 4px;
@@ -827,10 +786,7 @@
 }
 
 .Silver{
-    border-top: 2px solid rgb(235, 235, 235);
-    border-left: 2px solid rgb(235, 235,235);
-    border-bottom:2px solid rgb(235, 235, 235);
-    border-right: 2px solid rgb(235, 235,235);
+    border: 2px solid rgb(235, 235, 235);
     border-radius: 5px;
     width: 200px;
     padding: 12px;
@@ -842,10 +798,7 @@
 }
 
 .overload{
-    border-top: 2px solid rgb(235, 235, 235);
-    border-left: 2px solid rgb(235, 235,235);
-    border-bottom:2px solid rgb(235, 235, 235);
-    border-right: 2px solid rgb(235, 235,235);
+    border: 2px solid rgb(235, 235, 235);
     border-radius: 5px;
     width: 89px;
     padding: 4px;
@@ -853,10 +806,7 @@
 }
 
 .override{
-    border-top: 2px solid rgb(235, 235, 235);
-    border-left: 2px solid rgb(235, 235,235);
-    border-bottom:2px solid rgb(235, 235, 235);
-    border-right: 2px solid rgb(235, 235,235);
+    border: 2px solid rgb(235, 235, 235);
     border-radius: 5px;
     width: 80px;
     padding: 4px;
@@ -865,10 +815,7 @@
 }
 
 .expression{
-    border-top: 2px solid rgb(235, 235, 235);
-    border-left: 2px solid rgb(235, 235,235);
-    border-bottom:2px solid rgb(235, 235, 235);
-    border-right: 2px solid rgb(235, 235,235);
+    border: 2px solid rgb(235, 235, 235);
     border-radius: 5px;
     width: 84px;
     padding: 4px;
@@ -877,10 +824,7 @@
 }
 
 .Bronze{
-    border-top: 2px solid rgb(235, 235, 235);
-    border-left: 2px solid rgb(235, 235,235);
-    border-bottom:2px solid rgb(235, 235, 235);
-    border-right: 2px solid rgb(235, 235,235);
+    border: 2px solid rgb(235, 235, 235);
     border-radius: 5px;
     width: 200px;
     padding: 12px;
@@ -892,10 +836,7 @@
 }
 
 .superclass{
-    border-top: 2px solid rgb(235, 235, 235);
-    border-left: 2px solid rgb(235, 235,235);
-    border-bottom:2px solid rgb(235, 235, 235);
-    border-right: 2px solid rgb(235, 235,235);
+    border: 2px solid rgb(235, 235, 235);
     border-radius: 5px;
     width:78px ;
     padding: 4px;
@@ -903,10 +844,7 @@
 }
 
 .xml{
-    border-top: 2px solid rgb(235, 235, 235);
-    border-left: 2px solid rgb(235, 235,235);
-    border-bottom:2px solid rgb(235, 235, 235);
-    border-right: 2px solid rgb(235, 235,235);
+    border: 2px solid rgb(235, 235, 235);
     border-radius: 5px;
     width: 76px;
     padding: 4px;
@@ -915,10 +853,7 @@
 }
 
 .index{
-    border-top: 2px solid rgb(235, 235, 235);
-    border-left: 2px solid rgb(235, 235,235);
-    border-bottom:2px solid rgb(235, 235, 235);
-    border-right: 2px solid rgb(235, 235,235);
+    border: 2px solid rgb(235, 235, 235);
     border-radius: 5px;
     width: 138px ;
     padding: 4px;
@@ -954,10 +889,7 @@
 }
 
 .tag_content{
-    border-top: 2px solid rgb(235, 235, 235);
-    border-left: 2px solid rgb(235, 235,235);
-    border-bottom:2px solid rgb(235, 235, 235);
-    border-right: 2px solid rgb(235, 235,235);
+    border: 2px solid rgb(235, 235, 235);
     border-radius: 5px;
     width: 747px;
     padding: 0px;
@@ -974,10 +906,7 @@
 }
 
 .tag_hash{
-    border-top: 2px ;
-    border-left: 2px ;
-    border-bottom:2px;
-    border-right: 2px;
+    border: 2px ;
     border-radius: 3px;
     border: transparent;
     background-color: rgb(222, 238, 247);
@@ -1030,10 +959,7 @@
 }
 
 .tag_java{
-    border-top: 2px ;
-    border-left: 2px ;
-    border-bottom:2px;
-    border-right: 2px;
+    border: 2px ;
     border-radius: 3px;
     border: transparent;
     background-color: rgb(222, 238, 247);
@@ -1068,10 +994,7 @@
 }
 
 .tag_net{
-    border-top: 2px ;
-    border-left: 2px ;
-    border-bottom:2px;
-    border-right: 2px;
+    border: 2px ;
     border-radius: 3px;
     border: transparent;
     background-color: rgb(222, 238, 247);
@@ -1106,10 +1029,7 @@
 }
 
 .tag_linq{
-    border-top: 2px ;
-    border-left: 2px ;
-    border-bottom:2px;
-    border-right: 2px;
+    border: 2px ;
     border-radius: 3px;
     border: transparent;
     background-color: rgb(222, 238, 247);
@@ -1144,10 +1064,7 @@
 }
 
 .tag_string{
-    border-top: 2px ;
-    border-left: 2px ;
-    border-bottom:2px;
-    border-right: 2px;
+    border: 2px ;
     border-radius: 3px;
     border: transparent;
     background-color: rgb(222, 238, 247);
@@ -1181,10 +1098,7 @@
 }
 
 .tag_generics{
-    border-top: 2px ;
-    border-left: 2px ;
-    border-bottom:2px;
-    border-right: 2px;
+    border: 2px ;
     border-radius: 3px;
     border: transparent;
     background-color: rgb(222, 238, 247);
@@ -1238,10 +1152,7 @@
 
 .choice{
     display: flex;
-    border-top: 1px solid rgb(151, 149, 149);
-    border-left: 1px solid rgb(151, 149, 149);
-    border-bottom:1px solid rgb(151, 149, 149);
-    border-right: 1px solid rgb(151, 149, 149);
+    border: 1px solid rgb(151, 149, 149);
     border-radius: 4px;
     margin-right: 8px;
 }
@@ -1271,10 +1182,7 @@
 
 .newest{
     display: flex;
-    border-top: 1px solid rgb(151, 149, 149);
-    border-left: 1px solid rgb(151, 149, 149);
-    border-bottom:1px solid rgb(151, 149, 149);
-    border-right: 1px solid rgb(151, 149, 149);
+    border: 1px solid rgb(151, 149, 149);
     border-radius: 4px;
 }
 
@@ -1292,10 +1200,7 @@
 }
 
 .post_content{
-    border-top: 2px solid rgb(235, 235, 235);
-    border-left: 2px solid rgb(235, 235,235);
-    border-bottom:2px solid rgb(235, 235, 235);
-    border-right: 2px solid rgb(235, 235,235);
+    border: 2px solid rgb(235, 235, 235);
     border-radius: 5px;
     width: 747px;
 }
@@ -1322,10 +1227,7 @@
 }
 
 .one{
-    border-top: 2px;
-    border-left: 2px;
-    border-bottom:2px;
-    border-right: 2px;
+    border: 2px;
     border-radius: 3px;
     border: transparent;
     background-color: rgba(18, 156, 80, 0.733);
@@ -1357,10 +1259,7 @@
 
 .two{
     padding:5px ;
-    border-top: 2px;
-    border-left: 2px;
-    border-bottom:2px;
-    border-right: 2px;
+    border: 2px;
     border-radius: 3px;
     border: transparent;
     background-color: rgba(18, 156, 80, 0.733);
@@ -1393,10 +1292,7 @@
 
 .three{
     padding:4px ;
-    border-top: 1px solid rgb(151, 149, 149);
-    border-left: 1px solid rgb(151, 149, 149);
-    border-bottom:1px solid rgb(151, 149, 149);
-    border-right: 1px solid rgb(151, 149, 149);
+    border: 1px solid rgb(151, 149, 149);
     border-radius: 3px;
     background-color: white;
     color:black;
@@ -1428,10 +1324,7 @@
 
 .four{
     padding:5px ;
-    border-top: 2px;
-    border-left: 2px;
-    border-bottom:2px;
-    border-right: 2px;
+    border: 2px;
     border-radius: 3px;
     border: transparent;
     background-color: rgba(18, 156, 80, 0.733);
@@ -1464,10 +1357,7 @@
 
 .five{
     padding:5px ;
-    border-top: 2px;
-    border-left: 2px;
-    border-bottom:2px;
-    border-right: 2px;
+    border: 2px;
     border-radius: 3px;
     border: transparent;
     background-color: rgba(18, 156, 80, 0.733);
@@ -1499,10 +1389,7 @@
 }
 
 .six{
-    border-top: 2px;
-    border-left: 2px;
-    border-bottom:2px;
-    border-right: 2px;
+    border: 2px;
     border-radius: 3px;
     border: transparent;
     padding:5px ;
@@ -1535,10 +1422,7 @@
 }
 
 .seven{
-    border-top: 2px;
-    border-left: 2px;
-    border-bottom:2px;
-    border-right: 2px;
+    border: 2px;
     border-radius: 3px;
     padding:5px ;
     background-color: rgba(18, 156, 80, 0.733);
@@ -1571,11 +1455,8 @@
 }
 
 .eight{
-    border-top: 2px;
-    border-left: 2px;
-    border-bottom:2px;
+    border: 2px;
     padding:5px ;
-    border-right: 2px;
     border-radius: 3px;
     background-color: rgba(18, 156, 80, 0.733);
     color: white;
@@ -1607,10 +1488,7 @@
 }
 
 .nine{
-    border-top: 2px;
-    border-left: 2px;
-    border-bottom:2px;
-    border-right: 2px;
+    border: 2px;
     border-radius: 3px;
     padding:5px ;
     background-color: rgba(18, 156, 80, 0.733);
@@ -1642,10 +1520,7 @@
 }
 
 .ten{
-    border-top: 2px;
-    border-left: 2px;
-    border-bottom:2px;
-    border-right: 2px;
+    border: 2px;
     padding:5px ;
     background-color:rgba(18, 156, 80, 0.733);
     color: white;
@@ -1690,10 +1565,7 @@
 }
 
 .Meta_content{
-    border-top: 2px solid rgb(235, 235, 235);
-    border-left: 2px solid rgb(235, 235,235);
-    border-bottom:2px solid rgb(235, 235, 235);
-    border-right: 2px solid rgb(235, 235,235);
+    border: 2px solid rgb(235, 235, 235);
     border-radius: 5px;
     width: 744px;
 }
@@ -1716,10 +1588,7 @@
 }
 
 .first{
-    border-top: 2px solid rgb(235, 235, 235);
-    border-left: 2px solid rgb(235, 235,235);
-    border-bottom:2px solid rgb(235, 235, 235);
-    border-right: 2px solid rgb(235, 235,235);
+    border: 2px solid rgb(235, 235, 235);
     border-radius: 3px;
     padding: 5px;
     width: 27px;
@@ -1742,10 +1611,7 @@
 }
 
 .second{
-    border-top: 2px solid rgb(235, 235, 235);
-    border-left: 2px solid rgb(235, 235,235);
-    border-bottom:2px solid rgb(235, 235, 235);
-    border-right: 2px solid rgb(235, 235,235);
+    border: 2px solid rgb(235, 235, 235);
     border-radius: 3px;
     padding: 5px;
     width: 27px;
@@ -1768,10 +1634,7 @@
 }
 
 .third{
-    border-top: 2px solid rgb(235, 235, 235);
-    border-left: 2px solid rgb(235, 235,235);
-    border-bottom:2px solid rgb(235, 235, 235);
-    border-right: 2px solid rgb(235, 235,235);
+    border: 2px solid rgb(235, 235, 235);
     border-radius: 3px;
     padding: 5px;
     width: 27px;
@@ -1794,10 +1657,7 @@
 }
 
 .fourth{
-    border-top: 2px solid rgb(235, 235, 235);
-    border-left: 2px solid rgb(235, 235,235);
-    border-bottom:2px solid rgb(235, 235, 235);
-    border-right: 2px solid rgb(235, 235,235);
+    border: 2px solid rgb(235, 235, 235);
     border-radius: 3px;
     padding: 5px;
     width: 27px;
@@ -1819,10 +1679,7 @@
 }
 
 .fifth{
-    border-top: 2px solid rgb(235, 235, 235);
-    border-left: 2px solid rgb(235, 235,235);
-    border-bottom:2px solid rgb(235, 235, 235);
-    border-right: 2px solid rgb(235, 235,235);
+    border: 2px solid rgb(235, 235, 235);
     border-radius: 3px;
     padding: 5px;
     width: 27px;
@@ -1853,10 +1710,7 @@
 }
 
 .net_content{
-    border-top: 2px solid rgb(235, 235, 235);
-    border-left: 2px solid rgb(235, 235,235);
-    border-bottom:2px solid rgb(235, 235, 235);
-    border-right: 2px solid rgb(235, 235,235);
+    border: 2px solid rgb(235, 235, 235);
     border-radius: 5px;
     width: 747px;
 }
@@ -1879,10 +1733,7 @@
 }
 
 .net_one{
-    border-top: 2px solid rgb(235, 235, 235);
-    border-left: 2px solid rgb(235, 235,235);
-    border-bottom:2px solid rgb(235, 235, 235);
-    border-right: 2px solid rgb(235, 235,235);
+    border: 2px solid rgb(235, 235, 235);
     border-radius: 3px;
     padding: 5px;
     margin:0px 15px 0px 12px;
@@ -1905,10 +1756,7 @@
 }
 
 .net_two{
-    border-top: 2px solid rgb(235, 235, 235);
-    border-left: 2px solid rgb(235, 235,235);
-    border-bottom:2px solid rgb(235, 235, 235);
-    border-right: 2px solid rgb(235, 235,235);
+    border: 2px solid rgb(235, 235, 235);
     border-radius: 3px;
     padding: 5px;
     margin:0px 15px 0px 12px;
@@ -1931,10 +1779,7 @@
 }
 
 .net_three{
-    border-top: 2px solid rgb(235, 235, 235);
-    border-left: 2px solid rgb(235, 235,235);
-    border-bottom:2px solid rgb(235, 235, 235);
-    border-right: 2px solid rgb(235, 235,235);
+    border: 2px solid rgb(235, 235, 235);
     border-radius: 3px;
     padding: 5px;
     width: 27px;
@@ -1957,10 +1802,7 @@
 }
 
 .net_four{
-    border-top: 2px solid rgb(235, 235, 235);
-    border-left: 2px solid rgb(235, 235,235);
-    border-bottom:2px solid rgb(235, 235, 235);
-    border-right: 2px solid rgb(235, 235,235);
+    border: 2px solid rgb(235, 235, 235);
     border-radius: 3px;
     padding: 5px;
     width: 27px;
@@ -1982,10 +1824,7 @@
 }
 
 .net_five{
-    border-top: 2px solid rgb(235, 235, 235);
-    border-left: 2px solid rgb(235, 235,235);
-    border-bottom:2px solid rgb(235, 235, 235);
-    border-right: 2px solid rgb(235, 235,235);
+    border: 2px solid rgb(235, 235, 235);
     border-radius: 3px;
     padding: 5px;
     width: 27px;
@@ -1996,7 +1835,7 @@
 
 .bottom{
     background-color: rgb(31, 30, 30);
-    width: 1360px;
+    width: 1350px;
     font-size: 12px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }

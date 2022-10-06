@@ -6,14 +6,13 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Stack Overflow</title>
         <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" href="css/media.css">
     </head>
     <body>
-        <div class="header">
-            <div class="header_left">
+        <div class="header display_flex">
+            <div class="header_left display_flex">
                 <img src="assets/120px-Stack_Overflow_logo.svg.png" alt="not found">
             </div>
-            <div class="header_middle">
+            <div class="header_middle display_flex">
                 <a href="About.html">
                     <span>About</span>
                 </a>
@@ -22,21 +21,21 @@
                     <span>For Teams</span>
                 </a>
             </div>
-            <div class="header_center">
+            <div class="header_center display_flex">
                 <img src="assets/search_FILL1_wght400_GRAD0_opsz48.png" alt="not found">
                 <input type="text" name="user" placeholder="user:22656" >
             </div>
-            <div class="header_right">
-                <button class="header_rightlogin" type="button">
+            <div class="header_right display_flex">
+                <button class="header_rightlogin display_flex" type="button">
                     Log in
                 </button>
-                <button class="header_rightsignup" type="button">
-                    <a href="#">Sign Up</a>
+                <button class="header_rightsignup display_flex" type="button">
+                    Sign Up
                 </button>   
             </div>
         </div>
 
-        <div class="main">
+        <div class="main display_flex">
             <div class="sideBar">
                 <div class="sideBarOptions">
                     <div class="home">
@@ -79,7 +78,7 @@
             </div>
 
             <div class="content">
-                <div class="content_top">
+                <div class="content_top display_flex">
                     <div class="content_topLeft">
                         <img src="assets/6d8ebb117e8d83d74ea95fbdd0f87e13.jpeg" alt="not found">
                     </div>
@@ -88,22 +87,22 @@
                             <p>Jon Skeet</p>
                         </div>
                         <div class="details">
-                            <div class="middle_top">
+                            <div class="middle_top display_flex">
                                 <div class="year">
                                     <img src="assets/cake.png" alt="not found">
-                                    <span>Member for 13 years,11 months</span>
+                                    <span class="display_flex">Member for 13 years,11 months</span>
                                 </div>
                                 <div class="clock">
                                     <img src="assets/clock.png" alt="not found">                                
-                                    <span>Last seen this week</span>
+                                    <span class="display_flex">Last seen this week</span>
                                 </div>
                             </div>
-                            <div class="middle_bottom">
+                            <div class="middle_bottom display_flex">
                                 <div class="logos">
                                     <img src="assets/twitter.png" alt="not found">
                                     <img src="assets/github.png" alt="not found">
                                     <img src="assets/pin.png" alt="not found">
-                                    <span>csharpindepth.com</span>
+                                    <span class="display_flex">csharpindepth.com</span>
                                 </div>
                                 <div class="location">
                                     <img src="assets/location.png" alt="not found">
@@ -134,31 +133,32 @@
                         </div>
                         <div class="Stats">
                             <div class="Stats_top">
-                                <div class="top">
+                                <span class="top">
                                     <span>1,354,452</span>
                                     reputation
-                                </div>
-                                <div class="topLeft">
-                                    <span>367.9m</span>
+                                </span>
+                                <span class="topLeft">
+                                    <span class="display_flex">367.9m</span>
                                     reached
-                                </div>
-                            </div>
-                            <div class="Stats_mid">
-                                <div class="middle">
+                                </span>
+                             </div>
+                            <div class="Stats_top">
+                                <span class="top">
                                     <span>35,483</span>
                                     answers
-                                </div> 
-                                <div class="midLeft">
-                                    <span>51</span>
+                                </span>
+                                <span class="midLeft">
+                                    <span class="display_flex">51</span>
                                     questions
-                                </div>
-                            </div>
-                            <div class="bottom_grade">
+                                </span>
+                             </div>
+                   
+                             <div class="bottom_grade">
                                 <div class="gradeimg">
-                                    <img src="assets/grade.png" alt="not found">
+                                   <img src="assets/grade.png" alt="not found">
                                 </div>
                                 <span>top <b>0.01%</b> overall</span>
-                            </div>
+                             </div>
                         </div>
 
                         <div class="cloud">
@@ -166,16 +166,16 @@
                                 <span>Collectives</span>
                             </div>
                             <div class="inside_google">
-                                <div class="img">
+                                <span class="img">
                                     <img src="assets/googlecloud.png" alt="not found">
-                                </div>
+                                </span>
                                 <div class="emp">
                                     <span class="Goo_Clo">
                                         Google Cloud
                                     </span><br>
                                     <span class="employee">
                                         2021
-                                        <img src="assets/silverdot.png">Employee
+                                        <img src="assets/silverdot.png" alt="not found">Employee
                                     </span>
                                 </div>
                             </div>
@@ -226,27 +226,27 @@
                             </div>
                         </div>
                         <div class="elements">
-                            <div class="so">
+                            <div class="so display_flex">
                                 <img src="assets/so.png" alt="not found">
                                 <span>Stack Overflow</span>
                                 1.4m
                             </div>
-                            <div class="mse">
+                            <div class="mse display_flex">
                                 <img src="assets/mce.png" alt="not found">
                                 <span>Meta Stack Exchange</span>
                                 92.9k
                             </div>
-                            <div class="su">
+                            <div class="su display_flex">
                                 <img src="assets/se.png" alt="not found">
                                 <span>Super User</span>
                                 5.1k
                             </div>
-                            <div class="sf">
+                            <div class="sf display_flex">
                                 <img src="assets/sf.png" alt="not found">
                                 <span>Server Fault</span>
                                 4.8k
                             </div>
-                            <div class="soft">
+                            <div class="soft display_flex">
                                 <img src="assets/Soft.png" alt="not found">
                                 <span>Software Engineering</span>
                                 3.4k
@@ -254,101 +254,113 @@
                         </div>
                     </div>
                     <div class="center">
-                        <div class="Badges">
+                        <div class="Badges display_flex">
                             <span class="badge">Badges</span>
                             <div class="all">
                                 <div class="view_badge">View all badges</div>
                             </div>
                         </div>
-                        <div class="rates">
+                        <div class="rates display_flex">
                             <div class="Gold">
-                                <div class="Gold_top">
-                                    <img src="assets/gold.png" alt="not found">
-                                    <p>831</p>
-                                    <span>gold badges</span>
+                                <div class="Gold_top display_flex">
+                                    <div class="gold_img">
+                                       <img src="assets/gold.png" alt="not found">
+                                    </div>
+                                    <div class="gold_msg">
+                                       <p>831</p>
+                                       <span>gold badges</span>
+                                    </div>
                                 </div>
                                 <div class="Gold_list">
-                                    <span>
-                                        <div class="delegates">
+                                    <div>
+                                        <span class="delegates">
                                             <img src="assets/golddot.png" alt="not found">
                                             delegates
-                                        </div>
+                                        </span>
                                         <span class="date">Apr 6, 2011</span>
-                                    </span>
-                                    <span>
-                                        <div class="inherit">
+                                    </div>
+                                    <div>
+                                        <span class="inherit">
                                             <img src="assets/golddot.png" alt="not found">
                                             inheritance
-                                        </div>
+                                        </span>
                                         <span class="date">Nov 12, 2011</span>
-                                    </span>
-                                    <span>
-                                        <div class="casting">
+                                    </div>
+                                    <div>
+                                        <span class="casting">
                                             <img src="assets/golddot.png" alt="not found">
                                             casting
-                                        </div>
+                                        </span>
                                         <span class="date">Mar 1,2012</span>
-                                    </span>
+                                    </div>
                                 </div>
                             </div>
                             <div class="Silver">
-                                <div class="Silver_top">
-                                    <img src="assets/silver.png" alt="not found">
-                                    <p>8,975</p>
-                                    <span>silver badges</span>
+                                <div class="Silver_top display_flex">
+                                    <div class="gold_img">
+                                       <img src="assets/silver.png" alt="not found">
+                                    </div>
+                                    <div class="gold_msg">
+                                       <p>8,975</p>
+                                       <span>silver badges</span>
+                                    </div>
                                 </div>
                                 <div class="Silver_list">
-                                    <span>
-                                        <div class="overload">
+                                    <div>
+                                        <span class="overload">
                                             <img src="assets/silverdot.png" alt="not found">
                                             overloading
-                                        </div>
+                                        </span>
                                         <span class="date">Feb 10, 2019</span>
-                                    </span>
-                                    <span>
-                                        <div class="override">
+                                    </div>
+                                    <div>
+                                        <span class="override">
                                             <img src="assets/silverdot.png" alt="not found">
                                             overriding
-                                        </div>
+                                        </span>
                                         <span class="date">Jun 19, 2019</span>
-                                    </span>
-                                    <span>
-                                        <div class="expression">
+                                    </div>
+                                    <div>
+                                        <span class="expression">
                                             <img src="assets/silverdot.png" alt="not found">
                                             expression
-                                        </div>
+                                        </span>
                                         <span class="date">Mar 12, 2020</span>
-                                    </span>
+                                    </div>
                                 </div>
                             </div>
                             <div class="Bronze">
-                                <div class="Bronze_top">
-                                    <img src="assets/bronze.png" alt="not found">
-                                    <p>9,086</p>
-                                    <span>bronze badges</span>
+                                <div class="Bronze_top display_flex ">
+                                    <div class="gold_img">
+                                       <img src="assets/bronze.png" alt="not found">
+                                    </div>
+                                    <div class="gold_msg">
+                                       <p>9,086</p>
+                                       <span>bronze badges</span>
+                                    </div>
                                 </div>
                                 <div class="Bronze_list">
-                                    <span>
-                                        <div class="superclass">
+                                    <div>
+                                        <span class="superclass">
                                             <img src="assets/bronzedot.png" alt="not found">
                                             superclass
-                                        </div>
+                                        </span>
                                         <span class="date">JUl 23,2014</span>
-                                    </span>
-                                    <span>
-                                        <div class="xml">
+                                    </div>
+                                    <div>
+                                        <span class="xml">
                                             <img src="assets/bronzedot.png" alt="not found">
                                             xmlreader
-                                        </div>
+                                        </span>
                                         <span class="date">Aug 2, 2014</span>
-                                    </span>
-                                    <span>
-                                        <div class="index">
+                                    </div>
+                                    <div>
+                                        <span class="index">
                                             <img src="assets/bronzedot.png" alt="not found">
                                             indexoutofbounds...
-                                        </div>
+                                        </span>
                                         <span class="date">Mar 30, 2014</span>
-                                    </span>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -357,14 +369,14 @@
 
                 <div class="content_lower">
                     <div class="top_tag">
-                        <div class="tags">
+                        <div class="tags display_flex">
                             <span class="top_Tags">Top tags</span>
                             <div class="view_tags">
                                 <span>View all tags</span>
                             </div>
                         </div>
                         <div class="tag_content">
-                            <div class="cHash">
+                            <div class="cHash display_flex">
                                 <span class="tag_hash">c#</span>
                                 <div class="hashdotimg">
                                     <img src="assets/golddot.png" alt="not found">
@@ -376,7 +388,7 @@
                                 <P class="hash_percentage">56</P>
                                 <p class="percentage">posts %</p>
                             </div>
-                            <div class="java">
+                            <div class="java display_flex">
                                 <span class="tag_java">java</span>
                                 <div class="javadotimg">
                                     <img src="assets/golddot.png" alt="not found">
@@ -388,7 +400,7 @@
                                 <p class="java_percentage">30</p>
                                 <p class="percentage">posts %</p>
                             </div>
-                            <div class="net">
+                            <div class="net display_flex">
                                 <span class="tag_net">.net</span>
                                 <div class="netdotimg">
                                     <img src="assets/golddot.png" alt="not found">
@@ -400,7 +412,7 @@
                                 <p class="net_percentage">16</p>
                                 <p class="percentage">posts %</p>
                             </div>
-                            <div class="linq">
+                            <div class="linq display_flex">
                                 <span class="tag_linq">linq</span>
                                 <div class="linqdotimg">
                                     <img src="assets/golddot.png" alt="not found">
@@ -412,7 +424,7 @@
                                 <p class="linq_percentage">8</p>
                                 <p class="percentage">posts %</p>
                             </div>
-                            <div class="string">
+                            <div class="string display_flex">
                                 <span class="tag_string">string</span>
                                 <div class="stringdotimg">
                                     <img src="assets/golddot.png" alt="not found">
@@ -424,7 +436,7 @@
                                 <p class="string_percentage">3</p>
                                 <p class="percentage">posts %</p>
                             </div>
-                            <div class="generics">
+                            <div class="generics display_flex">
                                 <span class="tag_generics">generics</span>
                                 <div class="genericdotimg">
                                     <img src="assets/golddot.png" alt="not found">
@@ -442,78 +454,78 @@
                     <div class="top_posts">
                         <div class="post">
                             <span class="top_Post">Top posts</span>
-                            <div class="gues">
+                            <div class="gues display_flex">
                                 <span>View all 
                                     <a href="ques.html">questions, </a> <a href="ans.html">answers,</a> and <a href="art.html">articles</a>
                                 </span>
-                                <div class="choice">
+                                <div class="choice display_flex">
                                     <P class="Over">All</P>
                                     <P class="Quest">Questions</P>
                                     <p class="Answer">Answers</p>
                                     <p class="Artic">Articles</p>
                                 </div>
-                                <div class="newest">
+                                <div class="newest display_flex">
                                     <p class="grade">Score</p>
                                     <p class="new">Newest</p>
                                 </div>
                             </div>
                         </div>
                         <div class="post_content">
-                            <div class="ans-one">
+                            <div class="ans-one display_flex">
                                 <img src="assets/greenans.png" alt="not found">
                                 <span class="one">11677</span>
                                 <a href="sub.html">Why is subtracting these two times (in 1927) giving a strange result?</a>
                                 <span class="Jul">Jul 27, 2011</span>
                             </div>
-                            <div class="ans-two">
+                            <div class="ans-two display_flex">
                                 <img src="assets/greenans.png" alt="not found">
                                 <span class="two">4645</span>
                                 <a href="char.html">Why is char[] preferred over String for passwords?</a>
                                 <span class="Jan">Jan 16, 2012</span>
                             </div>
-                            <div class="ans-three">
+                            <div class="ans-three display_flex">
                                 <img src="assets/grayans.png" alt="not found">
                                 <span class="three">3741</span>
                                 <a href="diff.html">What is th difference between String and string in C#?</a>
                                 <span class="Oct">Oct 18, 2008</span>
                             </div>
-                            <div class="ans-four">
+                            <div class="ans-four display_flex">
                                 <img src="assets/greenans.png" alt="not found">
                                 <span class="four">3292</span>
                                 <a href="const.html">How do I call one constructor from another in Java?</a>
                                 <span class="Nov">Nov 12, 2008</span>
                             </div>
-                            <div class="ans-five">
+                            <div class="ans-five display_flex">
                                 <img src="assets/greenans.png" alt="not found">
                                 <span class="five">3108</span>
                                 <a href="version.html">What are the correct version number for C#?</a>
                                 <span class="Octo">Oct 29, 2008</span>
                             </div>
-                            <div class="ans-six">
+                            <div class="ans-six display_flex">
                                 <img src="assets/greenques.png" alt="not found">
                                 <span class="six">2808</span>
                                 <a href="sub.html">What are the correct version number for C#?</a>
                                 <span class="Octo">Oct 29, 2008</span>
                             </div>
-                            <div class="ans-seven">
+                            <div class="ans-seven display_flex">
                                 <img src="assets/greenans.png" alt="not found">
                                 <span class="seven">2660</span>
                                 <a href="nest.html">How do I break out of nested loops in Java</a>
                                 <span class="May">May 20, 2009</span>
                             </div>
-                            <div class="ans-eight">
+                            <div class="ans-eight display_flex">
                                 <img src="assets/greenans.png" alt="not found">
                                 <span class="eight">2512</span>
                                 <a href="serial.html">What is a serialVersionUID and why should I use it?</a>
                                 <span class="Nove">Nov 12, 2008</span>
                             </div>
-                            <div class="ans-nine">
+                            <div class="ans-nine display_flex">
                                 <img src="assets/greenans.png" alt="not found">
                                 <span class="nine">2502</span>
                                 <a href="data.html">Difference between decimal, float and double in .NET?</a>
                                 <span class="Mar">Mar 6, 2009</span>
                             </div>
-                            <div class="ans-ten">
+                            <div class="ans-ten display_flex">
                                 <img src="assets/greenans.png" alt="not found">
                                 <span class="ten">1985</span>
                                 <a href="group.html">Group by in LINQ</a>
@@ -523,47 +535,47 @@
                     </div>
 
                     <div class="top_meta">
-                        <div class="Meta">
+                        <div class="Meta display_flex">
                             <span class="meta_post">Top Meta posts</span>
-                            <div class="Ques_three">
+                            <div class="Ques_three display_flex">
                                 <img src="assets/quesgray.png" alt="not found">
                                 <p>3</p>
                             </div>
-                            <div class="ans_two">
+                            <div class="ans_two display_flex">
                                 <img src="assets/grayans.png" alt="not found">
                                 <p>22</p>
                             </div>
                         </div>
                         <div class="Meta_content">
-                            <div class="Reach">
+                            <div class="Reach display_flex">
                                 <div class="reachimg">
                                     <img src="assets/stackgray.png" alt="not found">
                                 </div>
                                 <span class="first">930</span>
                                 <a href="Reach.html">Congratulations for reaching a million, Gordon Linoff!</a>
                             </div>
-                            <div class="check">
+                            <div class="check display_flex">
                                 <div class="reachimg">
                                     <img src="assets/stackgray.png" alt="not found">
                                 </div>
                                 <span class="second">806</span>
                                 <a href="Check.html">Stack Overflow question checklist</a>
                             </div>
-                            <div class="elitist">
+                            <div class="elitist display_flex">
                                 <div class="reachimg">
                                     <img src="assets/stackgray.png" alt="not found">
                                 </div>
                                 <span class="third">464</span>
                                 <a href="Elitist.html">Are we being "elitist"? Is there something wrong with that?</a>
                             </div>
-                            <div class="user">
+                            <div class="user display_flex">
                                 <div class="reachimg">
                                     <img src="assets/stackgray.png" alt="not found">
                                 </div>
                                 <span class="fourth">204</span>
                                 <a href="User.html">What should I do about a user thet I'am trying to help and is calling me stupid</a>
                             </div>
-                            <div class="skeet">
+                            <div class="skeet display_flex">
                                 <div class="reachimg">
                                     <img src="assets/stackgray.png" alt="not found">
                                 </div>
@@ -574,42 +586,42 @@
                     </div>
                     
                     <div class="tag_NetWork">
-                        <div class="net_work">
+                        <div class="net_work display_flex">
                             <span class="tag_work">Top network posts</span>
                             <div class="work">
                                 <span>View all network posts</span>
                             </div>
                         </div>
                         <div class="net_content">
-                            <div class="voters">
+                            <div class="voters display_flex">
                                 <div class="votersimg">
                                     <img src="assets/mce.png" alt="not found">
                                 </div>                               
                                 <span class="net_one">867</span>
                                 <a href="voters.html">Allow an edit to notify downvoters: "I think I've fixed the issue now - please check"</a>
                             </div>
-                            <div class="facts">
+                            <div class="facts display_flex">
                                 <div class="votersimg">
                                     <img src="assets/mce.png" alt="not found">
                                 </div> 
                                 <span class="net_two">821</span>
                                 <a href="facts.html">Jon Skeet Facts</a>
                             </div>
-                            <div class="tagline">
+                            <div class="tagline display_flex">
                                 <div class="votersimg">
                                     <img src="assets/mce.png" alt="not found">
                                 </div> 
                                 <span class="net_three">298</span>
                                 <a href="tagline.html">Should 'Hi', 'thanks', taglines and salutations be removed from posts?</a>
                             </div>
-                            <div class="monitor">
+                            <div class="monitor display_flex">
                                 <div class="votersimg">
                                     <img src="assets/sf.png" alt="not found">
                                 </div> 
                                 <span class="net_four">266</span>
                                 <a href="monitor.html">Shell command to monitor changes in a file</a>
                             </div>
-                            <div class="accept">
+                            <div class="accept display_flex">
                                 <div class="votersimg">
                                     <img src="assets/mce.png" alt="not found">
                                 </div> 
@@ -622,7 +634,7 @@
             </div>
         </div>
         <div class="bottom">
-            <div class="bottom_content">
+            <div class="bottom_content display_flex">
                 <div class="bottom_left">
                     <img src="assets/Stackbottom.png" alt="not found">
                 </div>

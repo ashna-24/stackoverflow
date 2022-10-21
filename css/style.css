@@ -20,9 +20,17 @@
     border-radius: 5px;
 }
 
+.decoration{
+   text-decoration: none;
+}
+
+.clear{
+   clear: both;
+}
+
 .header{
     position:fixed;
-    width: 1350px;
+    width: 1349px;
     height: 40px;
     z-index:10;
     align-items: center;
@@ -54,7 +62,6 @@
 .header_middle a{
     color: rgb(128, 125, 125);
     font-size: 13px;
-    text-decoration: none;
     padding: 13px 15px;
 }
 
@@ -98,27 +105,9 @@
     border: 1px;
     margin-left: 4px;
     width: 70px;
-    height: 36px;
-    padding:11px;
+    padding:7px 0px 11px 13px;
     color:white;
     background-color: rgb(8, 153, 250);
-}
-
-.header_right .header_rightlogin a{
-    text-decoration: none;
-    font-size: 14px;
-    text-align: center;
-    padding: 10px;
-    float: right;
-}
-
-.header_right .header_rightsignup a{
-    text-decoration: none;
-    float: right;
-    padding: 10px;
-    color: white;
-    font-size: 14px;
-    text-align: center;
 }
 
 .header_rightlogin:hover{
@@ -133,7 +122,7 @@
 }
 
 .main{
-    padding-top: 40px;
+    padding-top: 42px;
     margin-left: 95px;
     font-size: 12px;
 }
@@ -142,7 +131,7 @@
     width:145px;
     position:sticky;
     top:38px;
-    height: 577px;
+    height: 580px;
     margin-right:5px;
     border-right: 2px solid rgb(238, 237,237);
     padding: 18px;
@@ -179,8 +168,7 @@
 }
 
 .collectives img{
-    float:right;
-    align-items: center;
+    float: right;
 }
 
 .collectives span{
@@ -361,7 +349,6 @@
 
 .Activity a{
     padding: 10px;
-    text-decoration: none;
     border: 1px;
     border-radius: 20px;
     display: inline;
@@ -413,7 +400,6 @@
 }
 
 .topLeft{
-    float: right;
     margin-left: 66px;
     color: rgb(158, 155, 155);
 }
@@ -424,7 +410,6 @@
 }
 
 .midLeft{
-    float: right;
     margin-left:90px;
     color: rgb(158, 155, 155);
 }
@@ -462,8 +447,7 @@
 }
 
 .emp{
-    float: right;
-    margin: 6px 55px 0px 0px;
+    margin: 6px 50px 0px 20px;
 }
 
 .Goo_Clo{
@@ -844,17 +828,7 @@
     padding: 4px;
 }
 
-.hash_score{
-    padding-top: 3px;
-    font-size: 16px;
-}
-
-.hash_posts{
-    padding-top: 3px;
-    font-size: 16px;
-}
-
-.hash_percentage{
+.tags_score{
     padding-top: 3px;
     font-size: 16px;
 }
@@ -896,21 +870,6 @@
     padding: 4px;
 }
 
-.java_score{
-    padding-top: 3px;
-    font-size: 16px;
-}
-
-.java_posts{
-    padding-top: 3px;
-    font-size: 16px;
-}
-
-.java_percentage{
-    padding-top: 3px;
-    font-size: 16px;
-}
-
 .net{
     padding: 15px 5px 15px 12px;
     border-bottom:2px solid rgb(235, 235, 235);
@@ -928,21 +887,6 @@
     color: rgb(43, 128, 224);
     width: 26px;
     padding: 4px;
-}
-
-.net_score{
-    padding-top: 3px;
-    font-size: 16px;
-}
-
-.net_posts{
-    padding-top: 3px;
-    font-size: 16px;
-}
-
-.net_percentage{
-    padding-top: 3px;
-    font-size: 16px;
 }
 
 .linq{
@@ -964,21 +908,6 @@
     padding: 4px;
 }
 
-.linq_score{
-    padding-top: 3px;
-    font-size: 16px;
-}
-
-.linq_posts{
-    padding-top: 3px;
-    font-size: 16px;
-}
-
-.linq_percentage{
-    padding-top: 3px;
-    font-size: 16px;
-}
-
 .string{
     padding: 15px 5px 15px 12px;
     border-bottom:2px solid rgb(235, 235, 235);
@@ -998,21 +927,6 @@
     padding: 4px;
 }
 
-.string_score{
-    padding-top: 3px;
-    font-size: 16px;
-}
-
-.string_posts{
-    padding-top: 3px;
-    font-size: 16px;
-}
-
-.string_percentage{
-    padding-top: 3px;
-    font-size: 16px;
-}
-
 .generics{
     padding: 15px 5px 15px 12px;
 }
@@ -1029,21 +943,6 @@
     color: rgb(43, 128, 224);
     width: 57px;
     padding: 4px;
-}
-
-.generics_scores{
-    padding-top: 3px;
-    font-size: 16px;
-}
-
-.generics_posts{
-    padding-top: 3px;
-    font-size: 16px;
-}
-
-.generics_percentage{
-    padding-top: 3px;
-    font-size: 16px;
 }
 
 .top_posts{
@@ -1066,7 +965,6 @@
 }
 
 .gues a{
-    text-decoration: none;
     color:rgb(6, 116, 243)
 }
 
@@ -1131,7 +1029,6 @@
 }
 
 .ans-one a{
-    text-decoration: none;
     color: rgb(6, 116, 243);
     padding: 5px 112px 0px 0px;
     font-size: 15px;
@@ -1160,7 +1057,6 @@
 }
 
 .ans-two a{
-    text-decoration: none;
     color: rgb(6, 116, 243);
     padding: 5px 222px 0px 0px;
     font-size: 15px;
@@ -1191,7 +1087,6 @@
 }
 
 .ans-three a{
-    text-decoration: none;
     color: rgb(6, 116, 243);
     padding: 5px 193px 0px 0px;
     font-size: 15px;
@@ -1222,7 +1117,6 @@
 }
 
 .ans-four a{
-    text-decoration: none;
     color: rgb(6, 116, 243);
     padding: 5px 208px 0px 0px;
     font-size: 15px;
@@ -1253,7 +1147,6 @@
 }
 
 .ans-five a{
-    text-decoration: none;
     color: rgb(6, 116, 243);
     padding: 5px 257px 0px 0px;
     font-size: 15px;
@@ -1284,7 +1177,6 @@
 }
 
 .ans-six a{
-    text-decoration: none;
     color: rgb(6, 116, 243);
     padding: 5px 257px 0px 0px;
     font-size: 15px;
@@ -1315,7 +1207,6 @@
 }
 
 .ans-seven a{
-    text-decoration: none;
     color: rgb(6, 116, 243);
     padding: 5px 265px 0px 0px;
     font-size: 15px;
@@ -1346,7 +1237,6 @@
 }
 
 .ans-eight a{
-    text-decoration: none;
     color: rgb(6, 116, 243);
     padding: 5px 213px 0px 0px;
     font-size: 15px;
@@ -1377,7 +1267,6 @@
 }
 
 .ans-nine a{
-    text-decoration: none;
     color: rgb(6, 116, 243);
     padding: 5px 198px 0px 0px;
     font-size: 15px;
@@ -1408,7 +1297,6 @@
 
 .ans-ten a{
     font-size: 15px;
-    text-decoration: none;
     color: rgb(6, 116, 243);
     padding: 5px 442px 0px 0px;
 }
@@ -1469,7 +1357,6 @@
 }
 
 .Reach a{
-    text-decoration: none;
     color: rgb(6, 116, 243);
     padding-top: 5px;
     font-size: 16px;
@@ -1494,7 +1381,6 @@
 }
 
 .check a{
-    text-decoration: none;
     color: rgb(6, 116, 243);
     padding-top: 5px;
     font-size: 15px;
@@ -1515,7 +1401,6 @@
 }
 
 .elitist a{
-    text-decoration: none;
     color: rgb(6, 116, 243);
     padding-top: 5px;
     font-size: 15px;
@@ -1536,7 +1421,6 @@
 }
 
 .user a{
-    text-decoration: none;
     color: rgb(6, 116, 243);
     padding-top: 5px;
     font-size: 15px;
@@ -1556,7 +1440,6 @@
 }
 
 .skeet a{
-    text-decoration: none;
     color: rgb(6, 116, 243);
     padding-top: 5px;
     font-size: 15px;
@@ -1601,7 +1484,6 @@
 }
 
 .voters a{
-    text-decoration: none;
     color: rgb(6, 116, 243);
     padding-top: 5px;
     font-size: 15px;
@@ -1626,7 +1508,6 @@
 }
 
 .facts a{
-    text-decoration: none;
     color: rgb(6, 116, 243);
     padding-top: 5px;
     font-size: 15px;
@@ -1647,7 +1528,6 @@
 }
 
 .tagline a{
-    text-decoration: none;
     color: rgb(6, 116, 243);
     padding-top: 5px;
     font-size: 15px;
@@ -1668,7 +1548,6 @@
 }
 
 .monitor a{
-    text-decoration: none;
     color: rgb(6, 116, 243);
     padding-top: 5px;
     font-size: 15px;
@@ -1688,7 +1567,6 @@
 }
 
 .accept a{
-    text-decoration: none;
     color: rgb(6, 116, 243);
     padding-top: 5px;
     font-size: 15px;
@@ -1705,7 +1583,7 @@
 
 .bottom{
     background-color: rgb(31, 30, 30);
-    width: 1350px;
+    width: 1349px;
     font-size: 12px;
 }
 

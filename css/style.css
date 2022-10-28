@@ -13,7 +13,7 @@
 }
 
 .border{
-    border: 2px solid rgb(235, 235, 235);
+    border: 1px solid rgb(204, 204, 204);
 }
 
 .radius{
@@ -34,7 +34,7 @@
     height: 40px;
     z-index:10;
     align-items: center;
-    padding: 2px;
+    padding: 3px 0px;
     border-bottom: 1px;
     border-top: 3px solid rgb(230, 116, 50);
     box-shadow: 2px 2px 3px 1px rgb(236, 234, 234);
@@ -42,7 +42,7 @@
 }
 
 .header_left{
-    margin-left: 100px;
+    margin-left: 35px;
 }
 
 .header_left img{
@@ -66,27 +66,23 @@
 }
 
 .header_center{
-    width: 565px;   
+    width: 715px;   
     background-color:white;
     border-radius:3px;
     border: 1px solid rgb(185, 185, 185);
 }
 
 .header_center img{
-    padding: 5px;
+    padding: 4px 5px;
 }
 
 .header_center input{
     border:none;
-    width: 550px;
+    width: 674px;
     padding: 5px;
     outline:none;
     font-size:14px;
     background-color:transparent;
-}
-
-.header_right{
-    margin-right:115px;
 }
 
 .header_right .header_rightlogin{
@@ -94,8 +90,8 @@
     border: 1px solid rgb(141, 141, 233);
     font-size: 14px;
     margin-left: 4px;
-    width: 70px;
-    padding: 5px 0px 0px 15px;
+    width: 60px;
+    padding: 4px 0px 0px 11px;
     color: rgb(141, 141, 233);
     background-color: rgb(231, 243, 248);
 }
@@ -104,8 +100,8 @@
     border-radius: 3px;
     border: 1px;
     margin-left: 4px;
-    width: 70px;
-    padding:7px 0px 11px 13px;
+    width: 65px;
+    padding:4px 0px 9px 10px;
     color:white;
     background-color: rgb(8, 153, 250);
 }
@@ -123,7 +119,7 @@
 
 .main{
     padding-top: 42px;
-    margin-left: 95px;
+    margin-left: 30px;
     font-size: 12px;
 }
 
@@ -133,7 +129,7 @@
     top:38px;
     height: 580px;
     margin-right:5px;
-    border-right: 2px solid rgb(238, 237,237);
+    border-right: 1px solid rgb(204, 204, 204);
     padding: 18px;
 }
 
@@ -191,9 +187,9 @@
 }
 
 .footer{
-    border-width:2px; 
+    border-width:1px; 
     border-style: solid none solid solid;
-    border-color: rgb(235, 235, 235); 
+    border-color: rgb(204, 204, 204); 
     width:142px;
     padding: 8px;
 }
@@ -320,7 +316,7 @@
 }
 
 .content_topRight{
-    margin: 10px 0px 0px 290px;
+    margin: 10px 0px 0px 420px;
 }
 
 .profile{
@@ -370,23 +366,23 @@
 }
 
 .content_middleLeft{
-    width: 237px;
+    width: 240px;
     padding: 30px 0px 0px 15px;
 }
 
 .start{
-    font-size: 24px;
+    font-size: 22px;
     padding-bottom:10px;
 }
 
 .Stats{
-    width: 214px;
+    width: 220px;
     padding: 10px;
 }
 
 .Stats_top{
    display:flex;
-   padding-bottom:25px;
+   padding-bottom:15px;
 }
 
 .top{
@@ -400,7 +396,7 @@
 }
 
 .topLeft{
-    margin-left: 66px;
+    margin-left: 50px;
     color: rgb(158, 155, 155);
 }
 
@@ -410,7 +406,7 @@
 }
 
 .midLeft{
-    margin-left:90px;
+    margin-left:75px;
     color: rgb(158, 155, 155);
 }
 
@@ -423,23 +419,19 @@
     color: rgb(158, 155, 155);
 }
 
-.gradeimg{
-    padding-top: 5px;
-}
-
 .cloud{
     width:240px;
     padding-top: 10px;
 }
 
 .google{
-    font-size: 24px;
-    padding: 20px 0px 10px 0px;
+    font-size: 22px;
+    padding: 10px 0px;
 }
 
 .inside_google{
-    width: 220px;
-    padding: 8px;
+    width: 228px;
+    padding:6px;
 }
 
 .img{
@@ -447,7 +439,7 @@
 }
 
 .emp{
-    margin: 6px 50px 0px 20px;
+    margin: 6px 50px 0px 25px;
 }
 
 .Goo_Clo{
@@ -477,7 +469,7 @@
 }
 
 .head{
-    font-size: 24px;
+    font-size: 22px;
     margin-bottom:8px;
 }
 
@@ -537,7 +529,7 @@
 }
 
 .center_left{
-    padding-top: 70px;
+    padding-top: 17px;
     margin-left: 15px;
     width: 240px;
 }
@@ -547,7 +539,7 @@
 }
 
 .commun{
-    font-size: 24px;
+    font-size: 22px;
     padding: 8px 0px 10px 0px;
 }
 
@@ -564,12 +556,13 @@
 
 .view img{
     align-items: center;
+    padding-top: 1px;
     float: right;
 }
 
 .elements{
-    width: 220px;
-    padding: 10px;
+    width: 230px;
+    padding: 5px;
 }
 
 .elements div{
@@ -586,7 +579,7 @@
 }
 
 .so span{
-    padding:0px 67px 0px 5px;
+    padding:0px 80px 0px 5px;
     color:rgb(43, 128, 224);
 }
 
@@ -600,7 +593,7 @@
 }
 
 .mse span{
-    padding:0px 31px 0px 5px;
+    padding:0px 43px 0px 10px;
     color:rgb(43, 128, 224);
 }
 
@@ -614,7 +607,7 @@
 }
 
 .su span{
-    padding:0px 93px 0px 5px;
+    padding:0px 104px 0px 10px;
     color:rgb(43, 128, 224);
 }
 
@@ -628,7 +621,7 @@
 }
 
 .sf span{
-    padding:0px 89px 0px 4px;
+    padding:0px 100px 0px 10px;
     color:rgb(43, 128, 224);
 }
 
@@ -638,24 +631,24 @@
 }
 
 .soft span{
-    padding:5px 37px 0px 3px;
+    padding:0px 49px 0px 10px;
     color:rgb(43, 128, 224);
 }
 
 .center{
-    width:746px;
-    margin:30px 0px 0px 25px;
+    width:775px;
+    margin-left:25px;
     padding: 5px;
     align-items: flex-start;
 }
 
 .Badges{
-    padding-bottom: 10px;
+    padding-bottom: 5px;
 }
 
 .badge{
-    font-size: 24px;
-    padding: 5px 582px 5px 0px;
+    font-size: 22px;
+    padding: 5px 620px 5px 0px;
 }
 
 .all{
@@ -668,7 +661,7 @@
 }
 
 .Gold{
-    width: 200px;
+    width: 215px;
     padding: 12px;
 }
 
@@ -690,18 +683,13 @@
     color:rgb(100, 100, 100);
 }
 
-.Gold_list div{
-    margin-top: 20px;
+.Margin{
+    margin-top: 5px;
 }
 
-.Silver_list div{
-    margin-top: 20px;
+.Margin_top{
+    margin-top: 17px;
 }
-
-.Bronze_list div{
-    margin-top: 20px;
-}
-
 .delegates{
     width:83px;
     padding: 4px;
@@ -723,9 +711,9 @@
 }
 
 .Silver{
-    width: 200px;
+    width: 215px;
     padding: 12px;
-    margin-left:30px;
+    margin-left: 26px;
 }
 
 .Silver_list span{
@@ -753,9 +741,9 @@
 }
 
 .Bronze{
-    width: 200px;
+    width: 215px;
     padding: 12px;
-    margin-left:30px;
+    margin-left:26px;
 }
 
 .Bronze_list span{
@@ -791,16 +779,16 @@
 }
 
 .top_tag{
-    width: 747px;
+    width: 775px;
 }
 
 .tags{
-    padding-bottom: 10px;
+    margin-top: 10px;
 }
 
 .top_Tags{
-    font-size: 24px;
-    padding: 8px 587px 10px 0px;
+    font-size: 22px;
+    padding: 8px 615px 10px 0px;
 }
 
 .view_tags{
@@ -809,17 +797,17 @@
 }
 
 .tag_content{
-    width: 747px;
+    width: 767px;
     padding: 0px;
 }
 
 .cHash{
-    padding: 15px 5px 15px 12px;
-    border-bottom:2px solid rgb(235, 235, 235);
+    padding: 12px 5px 12px 12px;
+    border-bottom:1px solid rgb(204, 204, 204);
 }
 
 .hashdotimg{
-    padding: 3px 425px 0px 12px;
+    padding: 3px 450px 0px 12px;
 }
 
 .tag_hash{
@@ -855,13 +843,8 @@
     color: rgb(145, 144, 144);
 }
 
-.java{
-    padding: 15px 5px 15px 12px;
-    border-bottom:2px solid rgb(235, 235, 235);
-}
-
 .javadotimg{
-    padding: 3px 415px 0px 12px;
+    padding: 3px 442px 0px 12px;
 }
 
 .tag_java{
@@ -874,13 +857,8 @@
     padding: 4px;
 }
 
-.net{
-    padding: 15px 5px 15px 12px;
-    border-bottom:2px solid rgb(235, 235, 235);
-}
-
 .netdotimg{
-    padding: 3px 433px 0px 12px;
+    padding: 3px 460px 0px 12px;
 }
 
 .tag_net{
@@ -893,13 +871,8 @@
     padding: 4px;
 }
 
-.linq{
-    padding: 15px 5px 15px 12px;
-    border-bottom:2px solid rgb(235, 235, 235);
-}
-
 .linqdotimg{
-    padding: 3px 443px 0px 12px;
+    padding: 3px 470px 0px 12px;
 }
 
 .tag_linq{
@@ -912,13 +885,8 @@
     padding: 4px;
 }
 
-.string{
-    padding: 15px 5px 15px 12px;
-    border-bottom:2px solid rgb(235, 235, 235);
-}
-
 .stringdotimg{
-    padding: 3px 432px 0px 12px; 
+    padding: 3px 460px 0px 12px; 
 }
 
 .tag_string{
@@ -932,11 +900,11 @@
 }
 
 .generics{
-    padding: 15px 5px 15px 12px;
+    padding: 12px 5px 12px 12px;
 }
 
 .genericdotimg{
-    padding: 3px 411px 0px 12px;
+    padding: 3px 438px 0px 12px;
 }
 
 .tag_generics{
@@ -950,21 +918,21 @@
 }
 
 .top_posts{
-    margin-top: 10px;
-    width: 747px;
+    margin-top: 20px;
+    width: 770px;
 }
 
 .post{
-    padding-bottom: 12px;
+    padding-bottom: 8px;
 }
 
 .top_Post{
-    font-size: 24px;
+    font-size: 22px;
     padding: 8px 0px 10px 0px;
 }
 
 .gues span{
-    padding: 8px 240px 0px 0px;
+    padding: 8px 265px 0px 0px;
     color: rgb(145, 144, 144);
 }
 
@@ -1020,21 +988,21 @@
 }
 
 .post_content{
-    width: 747px;
+    width: 767px;
 }
 
-.ans-one{
-    padding: 14px;
-    border-bottom: 2px solid rgb(235, 235, 235);
+.ans-text{
+    padding: 10px;
+    border-bottom: 1px solid rgb(204, 204, 204);
 }
 
-.ans-one img{
+.ans-text img{
     padding-top: 6px;
 }
 
-.ans-one a{
+.ans-one{
     color: rgb(6, 116, 243);
-    padding: 5px 112px 0px 0px;
+    padding: 5px 132px 0px 0px;
     font-size: 15px;
 }
 
@@ -1047,22 +1015,13 @@
     border: transparent;
     background-color: rgba(18, 156, 80, 0.733);
     color: white;
-    padding:6px ;
+    padding:6px 4px;
     margin: 0px 15px 0px 12px;
 }
 
 .ans-two{
-    border-bottom: 2px solid rgb(235, 235, 235);
-    padding: 15px;
-}
-
-.ans-two img{
-    padding-top: 6px;
-}
-
-.ans-two a{
     color: rgb(6, 116, 243);
-    padding: 5px 222px 0px 0px;
+    padding: 5px 263px 0px 0px;
     font-size: 15px;
 }
 
@@ -1071,28 +1030,18 @@
 }
 
 .two{
-    padding:5px ;
+    padding:6px 0px 4px 7px;
     border-radius: 3px;
     border: transparent;
     background-color: rgba(18, 156, 80, 0.733);
     color: white;
     margin:0px 15px 0px 12px;
     width: 33px;
-    padding-left: 10px;
 }
 
 .ans-three{
-    border-bottom: 2px solid rgb(235, 235, 235);
-    padding: 15px;
-}
-
-.ans-three img{
-    padding-top: 6px;
-}
-
-.ans-three a{
     color: rgb(6, 116, 243);
-    padding: 5px 193px 0px 0px;
+    padding: 5px 234px 0px 0px;
     font-size: 15px;
 }
 
@@ -1101,28 +1050,18 @@
 }
 
 .three{
-    padding:4px ;
+    padding:5px 0px 5px 5px;
     border: 1px solid rgb(151, 149, 149);
     border-radius: 3px;
     background-color: white;
     color:black;
     margin:0px 15px 0px 12px;
-    width:34px;
-    padding-left: 8px;
+    width:33px;
 }
 
 .ans-four{
-    border-bottom: 2px solid rgb(235, 235, 235);
-    padding: 15px;
-}
-
-.ans-four img{
-    padding-top: 6px;
-}
-
-.ans-four a{
     color: rgb(6, 116, 243);
-    padding: 5px 208px 0px 0px;
+    padding: 5px 248px 0px 0px;
     font-size: 15px;
 }
 
@@ -1131,28 +1070,18 @@
 }
 
 .four{
-    padding:5px ;
+    padding:5px 0px 5px 6px;
     border-radius: 3px;
     border: transparent;
     background-color: rgba(18, 156, 80, 0.733);
     color: white;
     margin:0px 15px 0px 12px;
     width:33px;
-    padding-left: 8px;
 }
 
 .ans-five{
-    padding: 15px;
-    border-bottom: 2px solid rgb(235, 235, 235);
-}
-
-.ans-five img{
-    padding-top: 6px;
-}
-
-.ans-five a{
     color: rgb(6, 116, 243);
-    padding: 5px 257px 0px 0px;
+    padding: 5px 297px 0px 0px;
     font-size: 15px;
 }
 
@@ -1160,59 +1089,13 @@
     padding-top: 5px;
 }
 
-.five{
-    padding:5px ;
-    border-radius: 3px;
-    border: transparent;
-    background-color: rgba(18, 156, 80, 0.733);
-    color: white;
-    margin:0px 15px 0px 12px;
-    width:33px;
-    padding-left: 8px;
-}
-
-.ans-six{
-    padding: 15px;
-    border-bottom: 2px solid rgb(235, 235, 235);
-}
-
-.ans-six img{
-    padding-top: 6px;
-}
-
-.ans-six a{
-    color: rgb(6, 116, 243);
-    padding: 5px 257px 0px 0px;
-    font-size: 15px;
-}
-
 .Octo{
     padding-top: 5px;
-}
-
-.six{
-    border-radius: 3px;
-    border: transparent;
-    padding:5px ;
-    background-color: rgba(18, 156, 80, 0.733);
-    color: white;
-    margin:0px 15px 0px 12px;
-    width:33px;
-    padding-left: 8px;
 }
 
 .ans-seven{
-    padding: 15px;
-    border-bottom: 2px solid rgb(235, 235, 235);
-}
-
-.ans-seven img{
-    padding-top: 6px;
-}
-
-.ans-seven a{
     color: rgb(6, 116, 243);
-    padding: 5px 265px 0px 0px;
+    padding: 5px 305px 0px 0px;
     font-size: 15px;
 }
 
@@ -1220,29 +1103,9 @@
     padding-top: 5px;
 }
 
-.seven{
-    border-radius: 3px;
-    padding:5px ;
-    background-color: rgba(18, 156, 80, 0.733);
-    color: white;
-    border: transparent;
-    margin:0px 15px 0px 12px;
-    width:33px;
-    padding-left: 8px;
-}
-
 .ans-eight{
-    padding: 15px;
-    border-bottom: 2px solid rgb(235, 235, 235);
-}
-
-.ans-eight img{
-    padding-top: 6px;
-}
-
-.ans-eight a{
     color: rgb(6, 116, 243);
-    padding: 5px 213px 0px 0px;
+    padding: 5px 253px 0px 0px;
     font-size: 15px;
 }
 
@@ -1250,29 +1113,9 @@
     padding-top: 5px;
 }
 
-.eight{
-    padding:5px ;
-    border-radius: 3px;
-    background-color: rgba(18, 156, 80, 0.733);
-    color: white;
-    border: transparent;
-    margin:0px 15px 0px 12px;
-    width:33px;
-    padding-left: 8px;
-}
-
 .ans-nine{
-    padding: 15px;
-    border-bottom: 2px solid rgb(235, 235, 235);
-}
-
-.ans-nine img{
-    padding-top: 6px;
-}
-
-.ans-nine a{
     color: rgb(6, 116, 243);
-    padding: 5px 198px 0px 0px;
+    padding: 5px 238px 0px 0px;
     font-size: 15px;
 }
 
@@ -1280,62 +1123,32 @@
     padding-top: 5px;
 }
 
-.nine{
-    border-radius: 3px;
-    padding:5px ;
-    background-color: rgba(18, 156, 80, 0.733);
-    color: white;
-    border: transparent;
-    margin:0px 15px 0px 12px;
-    width:33px;
-    padding-left: 8px;
-}
-
-.ans-ten{
-    padding: 15px;
-}
-
-.ans-ten img{
-    padding-top: 6px;
-}
-
 .ans-ten a{
     font-size: 15px;
     color: rgb(6, 116, 243);
-    padding: 5px 442px 0px 0px;
+    padding: 5px 482px 0px 0px;
 }
+
+.ans-ten{
+    padding: 10px;
+} 
 
 .Sep{
     padding-top: 5px;
 }
 
-.ten{
-    padding:5px ;
-    background-color:rgba(18, 156, 80, 0.733);
-    color: white;
-    border-radius: 3px;
-    border: transparent;
-    margin:0px 15px 0px 12px;
-    width:33px;
-    padding-left: 8px;
-}
-
 .top_meta{
-    margin-top: 20px;
-    width: 744px;
-}
-
-.Meta{
-    padding-bottom: 12px;
+    margin-top: 15px;
+    width: 770px;
 }
 
 .meta_post{
-    font-size: 24px;
-    padding: 8px 496px 10px 0px;
+    font-size: 22px;
+    padding: 8px 537px 10px 0px;
 }
 
 .Meta img{
-    padding-top: 20px;
+    padding-top: 15px;
 }
 
 .Ques_three{
@@ -1348,22 +1161,32 @@
 }
 
 .Meta p{
-    margin: 20px 6px 0px 4px;
+    margin: 15px 6px 0px 4px;
 }
 
 .Meta_content{
-    width: 744px;
+    width: 770px;
 }
 
 .Reach{
-    padding: 15px;
-    border-bottom: 2px solid rgb(235, 235, 235);
+    padding: 10px;
+    border-bottom: 1px solid rgb(204, 204, 204);
 }
 
 .Reach a{
     color: rgb(6, 116, 243);
     padding-top: 5px;
-    font-size: 16px;
+    font-size: 15px;
+}
+
+.skeet{
+    padding: 10px;
+}
+
+.skeet a{
+    color: rgb(6, 116, 243);
+    padding-top: 5px;
+    font-size: 15px;
 }
 
 .reachimg{
@@ -1379,17 +1202,6 @@
     color: rgb(122, 118, 118);
 }
 
-.check{
-    padding: 15px;
-    border-bottom: 2px solid rgb(235, 235, 235);
-}
-
-.check a{
-    color: rgb(6, 116, 243);
-    padding-top: 5px;
-    font-size: 15px;
-}
-
 .second{
     border-radius: 3px;
     padding: 5px;
@@ -1397,17 +1209,6 @@
     padding-left: 10px;
     margin:0px 15px 0px 12px;
     color: rgb(122, 118, 118);
-}
-
-.elitist{
-    padding: 15px;
-    border-bottom: 2px solid rgb(235, 235, 235);
-}
-
-.elitist a{
-    color: rgb(6, 116, 243);
-    padding-top: 5px;
-    font-size: 15px;
 }
 
 .third{
@@ -1419,17 +1220,6 @@
     color: rgb(122, 118, 118);
 }
 
-.user{
-    padding: 15px;
-    border-bottom: 2px solid rgb(235, 235, 235);
-}
-
-.user a{
-    color: rgb(6, 116, 243);
-    padding-top: 5px;
-    font-size: 15px;
-}
-
 .fourth{
     border-radius: 3px;
     padding: 5px;
@@ -1437,16 +1227,6 @@
     padding-left: 10px;
     margin:0px 15px 0px 12px;
     color: rgb(122, 118, 118);
-}
-
-.skeet{
-    padding: 15px;
-}
-
-.skeet a{
-    color: rgb(6, 116, 243);
-    padding-top: 5px;
-    font-size: 15px;
 }
 
 .fifth{
@@ -1459,18 +1239,13 @@
 }
 
 .tag_NetWork{
-    margin-top: 20px;
-    width: 747px;
-    margin-bottom: 15px;
-}
-
-.net_work{
-    padding-bottom: 12px;
+    margin: 20px 0px 25px 0px;
+    width: 770px;
 }
 
 .tag_work{
-    font-size: 24px;
-    padding: 8px 427px 10px 0px;
+    font-size: 22px;
+    padding: 8px 470px 10px 0px;
 }
 
 .work{
@@ -1479,7 +1254,7 @@
 }
 
 .net_content{
-    width: 747px;
+    width: 770px;
 }
 
 .voters{

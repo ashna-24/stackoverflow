@@ -28,6 +28,10 @@
    clear: both;
 }
 
+.color{
+   color: rgb(6, 116, 243);
+}
+
 .header{
     position:fixed;
     width: 1349px;
@@ -168,7 +172,6 @@
 }
 
 .collectives span{
-    padding-top: 5px;
     width: 100px;
 }
 
@@ -325,7 +328,6 @@
     border-radius: 4px;
     border: 1px solid rgb(199, 197, 197);
     background-color: white;
-    cursor: pointer;
 }
 
 .profile img{
@@ -344,7 +346,6 @@
 }
 
 .Activity a{
-    padding: 10px;
     border: 1px;
     border-radius: 20px;
     display: inline;
@@ -357,12 +358,11 @@
     background-color:rgb(255, 108, 23);
     color: white;
     padding: 6px 15px;
+    margin: 0px 10px;
 }
 
 .content_middle{
     width: 1032px;
-    height: 380px;
-    display:flex;
 }
 
 .content_middleLeft{
@@ -381,7 +381,6 @@
 }
 
 .Stats_top{
-   display:flex;
    padding-bottom:15px;
 }
 
@@ -390,7 +389,6 @@
 }
 
 .top span{
-    display:flex;
     font-size: 18px;
     color: black;
 }
@@ -522,10 +520,6 @@
 .sites_li a{
     color: rgb(53, 125, 233);
     font-weight: 340;
-}
-
-.content_center{
-    display:flex;
 }
 
 .center_left{
@@ -810,14 +804,16 @@
     padding: 3px 450px 0px 12px;
 }
 
-.tag_hash{
-    border: 2px ;
+.items{
     border-radius: 3px;
     border: transparent;
     background-color: rgb(222, 238, 247);
-    color: rgb(43, 128, 224);
+    color: rgb(43, 128, 224); 
+    padding: 2px 0px 4px 7px;   
+}
+
+.tag_hash{
     width: 19px;
-    padding: 4px;
 }
 
 .tags_score{
@@ -848,13 +844,7 @@
 }
 
 .tag_java{
-    border: 2px ;
-    border-radius: 3px;
-    border: transparent;
-    background-color: rgb(222, 238, 247);
-    color: rgb(43, 128, 224);
     width: 27px;
-    padding: 4px;
 }
 
 .netdotimg{
@@ -862,13 +852,7 @@
 }
 
 .tag_net{
-    border: 2px ;
-    border-radius: 3px;
-    border: transparent;
-    background-color: rgb(222, 238, 247);
-    color: rgb(43, 128, 224);
     width: 26px;
-    padding: 4px;
 }
 
 .linqdotimg{
@@ -876,13 +860,7 @@
 }
 
 .tag_linq{
-    border: 2px ;
-    border-radius: 3px;
-    border: transparent;
-    background-color: rgb(222, 238, 247);
-    color: rgb(43, 128, 224);
     width: 25px;
-    padding: 4px;
 }
 
 .stringdotimg{
@@ -890,13 +868,7 @@
 }
 
 .tag_string{
-    border: 2px ;
-    border-radius: 3px;
-    border: transparent;
-    background-color: rgb(222, 238, 247);
-    color: rgb(43, 128, 224);
     width: 36px;
-    padding: 4px;
 }
 
 .generics{
@@ -908,13 +880,7 @@
 }
 
 .tag_generics{
-    border: 2px ;
-    border-radius: 3px;
-    border: transparent;
-    background-color: rgb(222, 238, 247);
-    color: rgb(43, 128, 224);
     width: 57px;
-    padding: 4px;
 }
 
 .top_posts{
@@ -1001,7 +967,6 @@
 }
 
 .ans-one{
-    color: rgb(6, 116, 243);
     padding: 5px 132px 0px 0px;
     font-size: 15px;
 }
@@ -1020,13 +985,8 @@
 }
 
 .ans-two{
-    color: rgb(6, 116, 243);
     padding: 5px 263px 0px 0px;
     font-size: 15px;
-}
-
-.Jan{
-    padding-top: 5px;
 }
 
 .two{
@@ -1040,13 +1000,8 @@
 }
 
 .ans-three{
-    color: rgb(6, 116, 243);
     padding: 5px 234px 0px 0px;
     font-size: 15px;
-}
-
-.Oct{
-    padding-top: 5px;
 }
 
 .three{
@@ -1060,13 +1015,8 @@
 }
 
 .ans-four{
-    color: rgb(6, 116, 243);
     padding: 5px 248px 0px 0px;
     font-size: 15px;
-}
-
-.Nov{
-    padding-top: 5px;
 }
 
 .four{
@@ -1080,62 +1030,33 @@
 }
 
 .ans-five{
-    color: rgb(6, 116, 243);
     padding: 5px 297px 0px 0px;
     font-size: 15px;
 }
 
-.Octo{
-    padding-top: 5px;
-}
-
-.Octo{
-    padding-top: 5px;
-}
-
 .ans-seven{
-    color: rgb(6, 116, 243);
     padding: 5px 305px 0px 0px;
     font-size: 15px;
 }
 
-.May{
-    padding-top: 5px;
-}
-
 .ans-eight{
-    color: rgb(6, 116, 243);
     padding: 5px 253px 0px 0px;
     font-size: 15px;
 }
 
-.Nove{
-    padding-top: 5px;
-}
-
 .ans-nine{
-    color: rgb(6, 116, 243);
     padding: 5px 238px 0px 0px;
     font-size: 15px;
 }
 
-.Mar{
-    padding-top: 5px;
-}
-
 .ans-ten a{
     font-size: 15px;
-    color: rgb(6, 116, 243);
     padding: 5px 482px 0px 0px;
 }
 
 .ans-ten{
     padding: 10px;
 } 
-
-.Sep{
-    padding-top: 5px;
-}
 
 .top_meta{
     margin-top: 15px;
@@ -1155,9 +1076,8 @@
     padding-bottom: 10px;
 }
 
-.ans_two{
+.ans_twogray{
     padding-bottom: 10px;
-    display: flex;
 }
 
 .Meta p{
@@ -1174,8 +1094,6 @@
 }
 
 .Reach a{
-    color: rgb(6, 116, 243);
-    padding-top: 5px;
     font-size: 15px;
 }
 
@@ -1184,58 +1102,7 @@
 }
 
 .skeet a{
-    color: rgb(6, 116, 243);
-    padding-top: 5px;
     font-size: 15px;
-}
-
-.reachimg{
-    padding-top: 6px;
-}
-
-.first{
-    border-radius: 3px;
-    padding: 5px;
-    width: 27px;
-    padding-left: 10px;
-    margin:0px 15px 0px 12px;
-    color: rgb(122, 118, 118);
-}
-
-.second{
-    border-radius: 3px;
-    padding: 5px;
-    width: 27px;
-    padding-left: 10px;
-    margin:0px 15px 0px 12px;
-    color: rgb(122, 118, 118);
-}
-
-.third{
-    border-radius: 3px;
-    padding: 5px;
-    width: 27px;
-    padding-left: 10px;
-    margin:0px 15px 0px 12px;
-    color: rgb(122, 118, 118);
-}
-
-.fourth{
-    border-radius: 3px;
-    padding: 5px;
-    width: 27px;
-    padding-left: 10px;
-    margin:0px 15px 0px 12px;
-    color: rgb(122, 118, 118);
-}
-
-.fifth{
-    border-radius: 3px;
-    padding: 5px;
-    width: 27px;
-    padding-left: 10px;
-    margin:0px 15px 0px 12px;
-    color: rgb(122, 118, 118);
 }
 
 .tag_NetWork{
@@ -1257,21 +1124,6 @@
     width: 770px;
 }
 
-.voters{
-    padding: 15px;
-    border-bottom: 2px solid rgb(235, 235, 235);
-}
-
-.voters a{
-    color: rgb(6, 116, 243);
-    padding-top: 5px;
-    font-size: 15px;
-}
-
-.votersimg{
-    padding-top: 5px;
-}
-
 .net_one{
     border-radius: 3px;
     padding: 5px;
@@ -1279,85 +1131,6 @@
     width: 27px;
     padding-left: 10px;
     color: rgb(122, 118, 118);
-}
-
-.facts{
-    padding: 15px;
-    border-bottom: 2px solid rgb(235, 235, 235);
-}
-
-.facts a{
-    color: rgb(6, 116, 243);
-    padding-top: 5px;
-    font-size: 15px;
-}
-
-.net_two{
-    border-radius: 3px;
-    padding: 5px;
-    margin:0px 15px 0px 12px;
-    width: 27px;
-    padding-left: 10px;
-    color: rgb(122, 118, 118);
-}
-
-.tagline{
-    padding: 15px;
-    border-bottom: 2px solid rgb(235, 235, 235);
-}
-
-.tagline a{
-    color: rgb(6, 116, 243);
-    padding-top: 5px;
-    font-size: 15px;
-}
-
-.net_three{
-    border-radius: 3px;
-    padding: 5px;
-    width: 27px;
-    padding-left: 10px;
-    margin:0px 15px 0px 12px;
-    color: rgb(122, 118, 118);
-}
-
-.monitor{
-    padding: 15px;
-    border-bottom: 2px solid rgb(235, 235, 235);
-}
-
-.monitor a{
-    color: rgb(6, 116, 243);
-    padding-top: 5px;
-    font-size: 15px;
-}
-
-.net_four{
-    border-radius: 3px;
-    padding: 5px;
-    width: 27px;
-    padding-left: 10px;
-    margin:0px 15px 0px 12px;
-    color: rgb(122, 118, 118);
-}
-
-.accept{
-    padding: 15px;
-}
-
-.accept a{
-    color: rgb(6, 116, 243);
-    padding-top: 5px;
-    font-size: 15px;
-}
-
-.net_five{
-    border-radius: 3px;
-    padding: 5px;
-    width: 27px;
-    padding-left: 10px;
-    margin:0px 15px 0px 12px;
-    color: rgb(104, 99, 99);
 }
 
 .bottom{
@@ -1439,7 +1212,6 @@
 
 .bottom_righttop span{
     padding-left: 10px;
-    cursor: pointer;
     color: rgb(156, 151, 151);
 }
 
